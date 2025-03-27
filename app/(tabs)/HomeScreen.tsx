@@ -1,16 +1,15 @@
 import React from 'react';
 import { Button } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import { StackNavigationProp } from '@react-navigation/stack';  // ✅ Import from @react-navigation/stack
+import { StackNavigationProp } from '@react-navigation/stack'; 
 import { ThemedView } from '@/components/ThemedView';
 import { ThemedText } from '@/components/ThemedText';
-import { RootStackParamList } from '@/types/navigation'; // ✅ Import the correct type
+import { RootStackParamList } from '@/types/navigation'; 
 
-// Define the type of the navigation prop to ensure type safety
 type HomeScreenNavigationProp = StackNavigationProp<RootStackParamList, 'Homepage'>;
 
 const HomeScreen = () => {
-  const navigation = useNavigation<HomeScreenNavigationProp>(); // ✅ Use the typed navigation
+  const navigation = useNavigation<HomeScreenNavigationProp>(); 
 
   return (
     <ThemedView>

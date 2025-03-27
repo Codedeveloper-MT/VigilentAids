@@ -5,7 +5,7 @@ import { ThemedView } from '@/components/ThemedView';
 import { ThemedText } from '@/components/ThemedText';
 import { RootStackParamList } from '@/types/navigation';  
 
-export default function WelcomeScreen() {
+export default function index() {
   const navigation = useNavigation<StackNavigationProp<RootStackParamList>>();
 
   return (
