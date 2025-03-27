@@ -1,7 +1,17 @@
 {
   "expo": {
+<<<<<<< HEAD
     "name": "VigilentAidsApp",
     "slug": "VigilentAidsApp",
+=======
+<<<<<<< HEAD
+    "name": "vigilentaids",
+    "slug": "vigilentaids",
+=======
+    "name": "VigilentAids",
+    "slug": "VigilentAids",
+>>>>>>> 173508d9a5a6618fcb5b4fd3d24451e32bc60b79
+>>>>>>> bb7e7a91e49619310afa7b76d5b1c87cfe8d58f8
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",

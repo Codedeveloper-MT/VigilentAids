@@ -5,7 +5,10 @@ import { Platform } from 'react-native';
 import { HapticTab } from '@/components/HapticTab';
 import { IconSymbol } from '@/components/ui/IconSymbol';
 import TabBarBackground from '@/components/ui/TabBarBackground';
+<<<<<<< HEAD
 
+=======
+>>>>>>> bb7e7a91e49619310afa7b76d5b1c87cfe8d58f8
 import { Colors } from '@/constants/Colors';
 import { useColorScheme } from '@/hooks/useColorScheme';
 
